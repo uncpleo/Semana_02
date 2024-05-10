@@ -1,0 +1,69 @@
+.btn {
+    padding: 10px;
+    width: 120px;
+    color:rgb(255, 255, 255);
+    font-style:normal;
+    display: flex;
+    border-radius: 4px;
+    justify-content: center;
+    border: none;
+}
+
+.btn-primary {
+    background-color: rgba(13,110,253,255);
+}
+.btn-primary:hover {
+    background-color: rgb(0, 30, 255);
+}
+
+.btn-secondary {
+    background-color: rgba(108,117,125,255);
+}
+.btn-secondary:hover {
+    background-color: rgb(86, 86, 86);
+}
+
+.btn-success {
+    background-color: rgba(25,135,84,255);
+}
+.btn-success:hover {
+    background-color: rgb(16, 127, 16);
+}
+
+.btn-danger {
+    background-color:rgba(220,53,69,255);
+}
+.btn-danger:hover {
+    background-color: rgb(189, 0, 0);
+}
+
+.btn-warning {
+    color:rgb(0, 0, 0);
+    background-color: rgba(255,193,7,255);
+}
+.btn-warning:hover {
+    background-color: rgba(255,193,7,100);
+}
+
+.btn-info {
+    color:rgb(0, 0, 0);
+    background-color: rgba(13,202,240,255);
+}
+.btn-info:hover {
+    background-color: rgb(0, 168, 206);
+}
+
+.btn-light {
+    color:rgb(0, 0, 0);
+    background-color: rgba(248,249,250,255);
+}
+.btn-light:hover {
+    background-color: rgb(147, 147, 147);
+}
+
+.btn-dark {
+    background-color: rgba(33,37,41,255);
+}
+.btn-dark:hover {
+    background-color: rgb(100, 99, 99);
+}

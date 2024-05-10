@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #555;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        section {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        article {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        aside {
+            background-color: #f2f2f2;
+            padding: 20px;
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 768px) {
+            div {
+                flex-direction: column;
+            }
+            aside {
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Header
+    </header>
+    <nav>
+        Navigation
+    </nav>
+    <div>
+        <section>
+            <article>
+                Main Content
+            </article>
+        </section>
+        <aside>
+            Sidebar Content
+        </aside>
+    </div>
+    <footer>
+        Footer
+    </footer>
+</body>
+</html>
